@@ -9,7 +9,7 @@ var serviceURL = "http..."
 suite("order-test-suite") in [
 	
   it("Obtains all orders data") in[
-    GET `https://orders-app-enw60f.5sc6y6-1.usa-e2.cloudhub.io/orders` with {
+    GET `https://orders-app-3fhlj2.5sc6y6-1.usa-e2.cloudhub.io/orders` with {
       "headers": {
       	"Accept" : "application/json"
       }
@@ -21,7 +21,7 @@ suite("order-test-suite") in [
   ],
   
  it("Creates an order") in[
-    POST `https://orders-app-enw60f.5sc6y6-1.usa-e2.cloudhub.io/orders` with {
+    POST `https://orders-app-3fhlj2.5sc6y6-1.usa-e2.cloudhub.io/orders` with {
       "headers": {
       	"Accept" : "application/json",
       	"Content-Type" : "application/json",
